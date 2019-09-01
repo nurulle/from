@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A3B9"
+    android:padding="20dp"
+    tools:context=".second"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            android:id="@+id/tv_nama1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textSize="30dp"
+            android:textColor="#B01AC9"
+            android:textStyle="bold"
+            />
+
+            <TextView
+                android:id="@+id/tv_nama2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="30dp"
+                android:textColor="#B01AC9"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_nama3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="30dp"
+                android:textColor="#B01AC9"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
